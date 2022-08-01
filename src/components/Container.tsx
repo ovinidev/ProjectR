@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@chakra-ui/react';
+import { Box, BoxProps, Flex } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 
 interface ContainerProps extends BoxProps {
@@ -12,7 +12,15 @@ export const Container = ({ children, ...rest }: ContainerProps) => {
       w="100%"
       {...rest}
     >
-      {children}
+      <Flex
+        justify="center"
+        direction="column"
+        w={{ base: '80%', nb: '100%' }}
+        maxW={800}
+        mx="auto"
+      >
+        {children}
+      </Flex>
     </Box>
   );
 };
