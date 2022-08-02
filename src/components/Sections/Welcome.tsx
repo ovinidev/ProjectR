@@ -1,4 +1,5 @@
 import {
+  Box,
   Flex,
   Heading,
   Image,
@@ -7,6 +8,7 @@ import {
 } from '@chakra-ui/react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Container } from '../Container';
+import { Glass } from '../Glass';
 import { FloatMotion } from '../Motion/FloatMotion';
 
 export const Welcome = () => {
@@ -30,8 +32,9 @@ export const Welcome = () => {
         </Flex>
 
         <ReactAudioPlayer
-          src="matue.mp3"
+          src="paratodos.mp3"
           autoPlay
+          loop
           volume={0.2}
         />
       </Stack>

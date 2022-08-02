@@ -5,7 +5,12 @@ import { Container } from '../Container';
 
 export const Character = () => {
   return (
-    <Container bg="secondary" color="primary" display="flex" h={{ base: '100vh', xl: '120vh' }}>
+    <Container
+      bg="secondary"
+      color="primary"
+      display="flex"
+      h={{ base: '100vh', xl: '120vh' }}
+    >
       <Heading fontSize={{ base: '1.6rem', xl: '2.6rem' }}>Personagens que lembram você</Heading>
       <SimpleGrid
         columns={{ base: 2, xl: 2 }}

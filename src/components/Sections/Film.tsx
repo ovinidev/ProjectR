@@ -3,19 +3,43 @@ import {
   Text,
 } from '@chakra-ui/react';
 import { Container } from '../Container';
+import { Glass } from '../Glass';
 
 export const Film = () => {
   return (
     <Container
-      backgroundImage="paratodos.jpg"
-      h={{ base: '75vh', xl: '100vh' }}
+      bgImage="paratodos.jpg"
+      h="100vh"
       display="flex"
     >
-      <Box bg="white" color="primary" borderRadius="base" p="4">
-        <Text fontSize={{ base: '1rem', xl: '1.4rem', nb: '1.6rem' }} mt="1rem" fontWeight="500">
-          Você sem dúvidas é meu amuleto da sorte, quero você para todo o sempre!
+      <Glass textAlign="center">
+        <Text
+          fontSize={{ base: '1rem', xl: '1.4rem', nb: '1.6rem' }}
+          fontWeight="500"
+          color="white"
+        >
+          Quando eles perguntam o motivo, eu nunca consigo explicar
+          <br />
+          Mas uma sinfonia tocou quando você me disse seu nome
+          <br />
+          E eu considerei isso um sinal
+          <br />
+
         </Text>
-      </Box>
+        <Text
+          fontSize={{ base: '1rem', xl: '1.4rem', nb: '1.6rem' }}
+          fontWeight="500"
+          color="white"
+        >
+          Você será meu começo, meu meio, meu fim?
+          <br />
+          Você será meu começo, meu meio, meu fim?
+          <br />
+          Você será meu começo, meu meio, meu fim?
+          <br />
+          Você será meu?
+        </Text>
+      </Glass>
     </Container>
   );
 };
