@@ -6,8 +6,7 @@ import { Container } from '../Container';
 export const Character = () => {
   return (
     <Container
-      bg="secondary"
-      color="primary"
+      color="secondary"
       display="flex"
       h={{ base: '100vh', xl: '120vh' }}
     >
@@ -18,12 +17,12 @@ export const Character = () => {
         mt="8"
         alignSelf={{ base: 'center', xl: 'normal' }}
       >
-        <Image src="/verde.jpeg" h={{ base: 150, xl: 300 }} />
-        <Image src="/coelho.jpg" h={{ base: 150, xl: 300 }} />
-        <Image src="/docinho.png" h={{ base: 150, xl: 300 }} />
-        <Image src="/fofinha.png" h={{ base: 150, xl: 300 }} />
-        <Image src="/coelho.jpeg" h={{ base: 150, xl: 300 }} />
-        <Image src="/mike.jpg" h={{ base: 150, xl: 300 }} />
+        <Image src="/1.png" h={{ base: 150, xl: 300 }} />
+        <Image src="/2.png" h={{ base: 150, xl: 300 }} />
+        <Image src="/3.png" h={{ base: 150, xl: 300 }} />
+        <Image src="/4.png" h={{ base: 150, xl: 300 }} />
+        <Image src="/5.png" h={{ base: 150, xl: 300 }} />
+        <Image src="/6.png" h={{ base: 150, xl: 300 }} />
       </SimpleGrid>
     </Container>
   );

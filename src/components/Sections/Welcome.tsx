@@ -18,9 +18,10 @@ export const Welcome = () => {
       display="flex"
     >
       <Stack spacing="16" align="center">
-        <FloatMotion>
-          <Image src="/ravena.png" h={{ base: 300, xl: 400 }} alt="fisio" />
+        <FloatMotion display="flex">
+          <Image src="/ravena.png" h={{ base: 300, xl: 400 }} alt="viga" />
         </FloatMotion>
+
         <Flex align="center" direction="column">
           <Heading fontSize={{ base: '1.6rem', xl: '2.6rem' }} fontWeight="700">
             Bem vinda, Renatha Silva

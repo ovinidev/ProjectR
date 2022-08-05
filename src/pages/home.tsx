@@ -13,10 +13,10 @@ export default function Lore() {
     <BoxMotion>
       <Welcome />
       <About />
-      <Film />
-      <Video />
-      <Character />
       <Gallery />
+      <Character />
+      <Video />
+      <Film />
       <HappyB />
     </BoxMotion>
   );
