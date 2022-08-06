@@ -3,20 +3,19 @@ import {
   Image, SimpleGrid,
 } from '@chakra-ui/react';
 // @ts-ignore
-import { Slide } from 'react-reveal';
+import { Zoom } from 'react-reveal';
 import { Container } from '../Container';
 
 export const Gallery = () => {
   return (
     <Container
       bgImage="paratodos2.jpg"
-      h={{ base: '240vh', md: '210vh', xl: '100vh' }}
+      h="100%"
       color="secondary"
       display="flex"
+      p="4rem 0"
     >
-      <Slide
-        right
-      >
+      <Zoom>
         <Box
           display="flex"
           alignItems="center"
@@ -67,7 +66,7 @@ export const Gallery = () => {
             </Box>
           </SimpleGrid>
         </Box>
-      </Slide>
+      </Zoom>
     </Container>
   );
 };

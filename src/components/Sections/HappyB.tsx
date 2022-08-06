@@ -1,6 +1,6 @@
 import { Heading, Stack, Text } from '@chakra-ui/react';
 // @ts-ignore
-import { Slide } from 'react-reveal';
+import { Zoom } from 'react-reveal';
 import { Container } from '../Container';
 
 export const HappyB = () => {
@@ -9,7 +9,7 @@ export const HappyB = () => {
       color="secondary"
       display="flex"
     >
-      <Slide right>
+      <Zoom>
         <Stack spacing="10">
           <Text fontSize={{ base: '1.2rem', xl: '1.4rem', nb: '1.6rem' }}>
             Queria primeiramente agradecer a Deus por ter te encontrado, gostaria
@@ -22,7 +22,7 @@ export const HappyB = () => {
             minha fisio linda e perfeita.
           </Text>
         </Stack>
-      </Slide>
+      </Zoom>
 
     </Container>
   );
