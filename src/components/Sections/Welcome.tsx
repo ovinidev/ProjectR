@@ -8,7 +8,6 @@ import {
 } from '@chakra-ui/react';
 import ReactAudioPlayer from 'react-audio-player';
 import { Container } from '../Container';
-import { Glass } from '../Glass';
 import { FloatMotion } from '../Motion/FloatMotion';
 
 export const Welcome = () => {
