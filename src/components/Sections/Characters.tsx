@@ -7,13 +7,12 @@ import { Container } from '../Container';
 
 export const Character = () => {
   return (
-    <Container
-      color="secondary"
-      display="flex"
-      h={{ base: '220vh', xl: '120vh' }}
-    >
-      <Slide left>
-
+    <Slide left>
+      <Container
+        color="secondary"
+        display="flex"
+        h={{ base: '220vh', xl: '120vh' }}
+      >
         <Heading fontSize={{ base: '1.6rem', xl: '2.6rem' }}>Personagens que lembram você</Heading>
         <SimpleGrid
           columns={{ base: 1, xl: 2 }}
@@ -28,8 +27,7 @@ export const Character = () => {
           <Image src="/5.png" h={{ base: 250, xl: 200, '2xl': 300 }} />
           <Image src="/6.png" h={{ base: 250, xl: 200, '2xl': 300 }} />
         </SimpleGrid>
-      </Slide>
-
-    </Container>
+      </Container>
+    </Slide>
   );
 };
