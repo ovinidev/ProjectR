@@ -10,7 +10,7 @@ export const Gallery = () => {
   return (
     <Container
       bgImage="paratodos2.jpg"
-      h={{ base: '185vh', xl: '100vh' }}
+      h={{ base: '240vh', md: '210vh', xl: '100vh' }}
       color="secondary"
       display="flex"
     >

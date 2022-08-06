@@ -11,7 +11,7 @@ export const Character = () => {
       <Container
         color="secondary"
         display="flex"
-        h={{ base: '220vh', xl: '120vh' }}
+        h={{ base: '270vh', md: '250vh', xl: '100vh' }}
       >
         <Heading fontSize={{ base: '1.6rem', xl: '2.6rem' }}>Personagens que lembram você</Heading>
         <SimpleGrid
