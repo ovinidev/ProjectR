@@ -1,5 +1,3 @@
-// @ts-ignore
-import { Slide } from 'react-reveal';
 import { Welcome } from '../components/Sections/Welcome';
 import { BoxMotion } from '../components/Motion/BoxMotion';
 import { About } from '../components/Sections/About';
@@ -18,10 +16,7 @@ export default function Lore() {
       <Character />
       <Video />
       <Film />
-      <Slide right>
-        <HappyB />
-      </Slide>
-
+      <HappyB />
     </BoxMotion>
   );
 }
