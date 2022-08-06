@@ -29,6 +29,7 @@ export const Welcome = () => {
           <Text fontSize={{ base: '1rem', xl: '1.4rem', nb: '1.6rem' }} mt="1rem" fontWeight="500">
             Hoje é seu aniversário, então fiz essa surpresa para você.
             Saiba que você é muito especial para mim!
+            Você é meu amuleto da sorte ok.
           </Text>
         </Flex>
 

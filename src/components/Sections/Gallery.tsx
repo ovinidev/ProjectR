@@ -1,4 +1,5 @@
 import {
+  Box,
   Image, SimpleGrid,
 } from '@chakra-ui/react';
 import { Container } from '../Container';
@@ -8,7 +9,7 @@ export const Gallery = () => {
     <Container
       color="secondary"
       display="flex"
-      h={{ base: '140vh', xl: '100vh' }}
+      h={{ base: '180vh', xl: '100vh' }}
       bgImage="paratodos2.jpg"
     >
       <SimpleGrid
@@ -16,10 +17,21 @@ export const Gallery = () => {
         gap="8"
         alignSelf="center"
       >
-        <Image src="7.png" height={{ base: 250, xl: 350 }} />
-        <Image src="8.png" height={{ base: 250, xl: 350 }} />
-        <Image src="9.png" height={{ base: 250, xl: 350 }} />
-        <Image src="10.png" height={{ base: 250, xl: 350 }} />
+        <Box bg="white" p="1rem 1rem 4rem 1rem">
+          <Image src="7.png" height={{ base: 250, xl: 250, '2xl': 350 }} />
+        </Box>
+        <Box bg="white" p="1rem 1rem 4rem 1rem">
+          <Image src="8.png" height={{ base: 250, xl: 250, '2xl': 350 }} />
+        </Box>
+
+        <Box bg="white" p="1rem 1rem 4rem 1rem">
+          <Image src="9.png" height={{ base: 250, xl: 250, '2xl': 350 }} />
+        </Box>
+
+        <Box bg="white" p="1rem 1rem 4rem 1rem">
+          <Image src="10.png" height={{ base: 250, xl: 250, '2xl': 350 }} />
+        </Box>
+
       </SimpleGrid>
     </Container>
   );
