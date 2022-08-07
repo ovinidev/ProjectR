@@ -1,3 +1,5 @@
+import ReactAudioPlayer from 'react-audio-player';
+import Link from 'next/link';
 import { Welcome } from '../components/Sections/Welcome';
 import { BoxMotion } from '../components/Motion/BoxMotion';
 import { About } from '../components/Sections/About';
@@ -17,6 +19,12 @@ export default function Lore() {
       <Video />
       <Film />
       <HappyB />
+      <ReactAudioPlayer
+        src="paratodos.mp3"
+        autoPlay
+        loop
+        volume={0.2}
+      />
     </BoxMotion>
   );
 }

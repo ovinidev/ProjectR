@@ -6,7 +6,6 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react';
-import ReactAudioPlayer from 'react-audio-player';
 import { Container } from '../Container';
 import { FloatMotion } from '../Motion/FloatMotion';
 
@@ -31,13 +30,6 @@ export const Welcome = () => {
             Você é meu amuleto da sorte ok.
           </Text>
         </Flex>
-
-        <ReactAudioPlayer
-          src="paratodos.mp3"
-          autoPlay
-          loop
-          volume={0.2}
-        />
       </Stack>
     </Container>
   );

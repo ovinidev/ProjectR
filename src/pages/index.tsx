@@ -2,6 +2,7 @@ import {
   Image, Button, Flex, Stack, Heading,
 } from '@chakra-ui/react';
 import Link from 'next/link';
+import ReactAudioPlayer from 'react-audio-player';
 import { FloatMotion } from '../components/Motion/FloatMotion';
 
 export default function Home() {
@@ -27,6 +28,13 @@ export default function Home() {
           </Link>
         </Button>
       </Stack>
+
+      <ReactAudioPlayer
+        src="gorila.mp3"
+        autoPlay
+        loop
+        volume={0.5}
+      />
     </Flex>
   );
 }
