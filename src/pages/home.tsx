@@ -8,6 +8,8 @@ import { Character } from '../components/Sections/Characters';
 import { Film } from '../components/Sections/Film';
 import { Video } from '../components/Sections/Video';
 import { HappyB } from '../components/Sections/HappyB';
+import { FavDay } from '../components/Sections/FavDay';
+import { NYC } from '../components/Sections/NYC';
 
 export default function Lore() {
   return (
@@ -19,6 +21,8 @@ export default function Lore() {
       <Video />
       <Film />
       <HappyB />
+      <FavDay />
+      <NYC />
       <ReactAudioPlayer
         src="paratodos.mp3"
         autoPlay
